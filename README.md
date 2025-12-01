@@ -13,7 +13,7 @@
 
 ## 📸 Visão Geral do Projeto
 
-![Relatório de Economia](img/relatorio-economia.png)
+![Relatório de Economia](evidence/relatorio-economia.png)
 
 Este projeto simula um cenário pós-Black Friday onde milhões de logs
 pequenos são gerados. O objetivo é demonstrar como uma política de
@@ -45,7 +45,7 @@ que afetam arquivos pequenos:
 A solução utiliza uma abordagem 100% Serverless para auditar, calcular e
 notificar.
 
-![Arquitetura](img/arquitetura.png)
+![Arquitetura](evidence/arquitetura.png)
 
 1.  **Gatilho (EventBridge):** Um Cron Job executa a auditoria
     semanalmente.\
