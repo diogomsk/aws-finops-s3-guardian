@@ -62,28 +62,13 @@ notificar.
 
 Baseado em um bucket com **10 Milhões de objetos** pequenos:
 
----
+| Estratégia                        | Custo de Armazenamento | Taxas de Transição | Multa de Retenção (<180 dias) | **Custo Total Est.** |
+| :-------------------------------- | :--------------------- | :----------------- | :---------------------------- | :------------------- |
+| **S3 Standard** (Sem ação)        | ~$0.46                 | $0.00              | $0.00                         | **$0.46**            |
+| **Glacier Deep Archive** (Errado) | ~$1.24 (Inflado)       | $500.00            | ~$6.20                        | **🔴 ~$507.44**      |
+| **FinOps Guardian** (Automação)   | ~$0.46                 | $0.00              | $0.00                         | **🟢 $0.46**         |
 
-Estratégia Custo de Taxas de Multa de **Custo Total
-Armazenamento Transição Retenção Est.**
-(\<180 dias)
-
----
-
-**S3 Standard** \~\$0.46 \$0.00 \$0.00 **\$0.46**
-
-**Glacier Deep \~\$1.24 \$500.00 \~\$6.20 **🔴
-Archive \~\$507.44**
-(Errado)**
-
-**FinOps \~\$0.46 \$0.00 \$0.00 **🟢 \$0.46**
-Guardian  
- (Automação)**
-
----
-
-> **Resultado:** A automação evitou desperdício de mais de **\$500
-> dólares** em um único mês.
+> **Resultado:** A automação evitou um desperdício de mais de **$500 dólares** em um único mês.
 
 ---
 
