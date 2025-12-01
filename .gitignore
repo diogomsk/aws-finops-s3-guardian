@@ -1,0 +1,14 @@
+# Ambientes Virtuais Python
+venv/
+env/
+.env
+
+# Arquivos do Mac e Sistema
+.DS_Store
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Configurações locais de IDE
+.vscode/
